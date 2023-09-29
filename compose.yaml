@@ -1,1 +1,22 @@
-REDIS_REPLICATION_MODE: master
+version: "3.8"
+
+services:
+  #Это конфигурация Docker Compose для запуска базы кэшей redis.
+  redis:
+    container_name: redis
+    deploy:
+      restart_policy:
+        condition: always
+        delay: 5s
+    env_file: redis.env
+    image: redis:alpine
+    labels:
+      com.centurylinklabs.watchtower.enable: "true"
+      traefik.enable: "false"
+    volumes:
+      - "./redis/data/redis.conf:/data/redis.conf"
+
+networks:
+  default:
+    external: true
+    name: $NETWORK
