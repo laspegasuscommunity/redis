@@ -5,6 +5,10 @@ services:
   redis:
     container_name: redis
     deploy:
+      resources:
+        limits:
+          memory: 500m
+          cpus: "0.5"
       restart_policy:
         condition: always
         delay: 5s
@@ -17,6 +21,6 @@ services:
       - "./redis/data/redis.conf:/data/redis.conf"
 
 networks:
-  default:
+  external:
     external: true
     name: $NETWORK
