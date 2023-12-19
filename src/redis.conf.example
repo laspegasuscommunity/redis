@@ -1,3 +1,2 @@
 timeout 0
 tcp-keepalive 60
-requirepass PASSWORD

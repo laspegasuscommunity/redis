@@ -5,13 +5,13 @@
 <h1 align="center">Redis Compose Project</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/laspegasuscommunity/redis?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/laspegasuscommunity/redis?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/laspegasuscommunity/redis?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/laspegasuscommunity/redis?color=56BEB8">
-  <img alt="Github issues" src="https://img.shields.io/github/issues/laspegasuscommunity/redis?color=56BEB8" />
-  <img alt="Github forks" src="https://img.shields.io/github/forks/laspegasuscommunity/redis?color=56BEB8" />
-  <img alt="Github stars" src="https://img.shields.io/github/stars/laspegasuscommunity/redis?color=56BEB8" />
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/laspegasuscommunity/yagpdb-redis?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/laspegasuscommunity/yagpdb-redis?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/laspegasuscommunity/yagpdb-redis?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/laspegasuscommunity/yagpdb-redis?color=56BEB8">
+  <img alt="Github issues" src="https://img.shields.io/github/issues/laspegasuscommunity/yagpdb-redis?color=56BEB8" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/laspegasuscommunity/yagpdb-redis?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/laspegasuscommunity/yagpdb-redis?color=56BEB8" />
 </p>
 
 <hr>
@@ -57,15 +57,15 @@ Redis - это хранилище данных с открытым исходн�
 
 ```bash
 # Клонируйте этот проект
-$ git clone https://github.com/laspegasuscommunity/redis.git
+$ git clone https://github.com/laspegasuscommunity/yagpdb-redis.git
 
 # Доступ
-$ cd postgres
+$ cd yagpdb-redis
 
 # Запустите проект
 $ docker-compose up -d
 
-# Сервер инициализируется в <http://redis>
+# Сервер инициализируется в <http://yagpdb-redis>
 ```
 
 ## :memo: Лицензия ##
